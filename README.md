@@ -4,8 +4,8 @@
 We are a chain of coffeehouses and roastery services and are trying to digitize our data management processes, especially how our product inventory, customer database, transactions and supplier database is stored and use it to our business advantage. We are interested in knowing how our products perform and improve our relationship with our ingredient supplier as well. We want our database to reflect our core business process and help us maintain the relationship between customers, suppliers and the products that we offer.
 
 ## General Information:
-
 Note - we have used a key attribute to auto generate primary keys unique to each table at insertion.
+
 1- Each product is described by a unique product ID, name, price, and category.
 2- Each store has a unique store ID, name, store revenue, location and operation cost.
 3- Each supplier has a unique supplier ID, supplier Name.
