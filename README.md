@@ -6,23 +6,23 @@ We are a chain of coffeehouses and roastery services and are trying to digitize 
 ## General Information:
 Note - we have used a key attribute to auto generate primary keys unique to each table at insertion.
 
-1- Each product is described by a unique product ID, name, price, and category.
-2- Each store has a unique store ID, name, store revenue, location and operation cost.
-3- Each supplier has a unique supplier ID, supplier Name.
-4- Each supplier supplies at least one product but there can be multiple products supplied by the same supplier.
-5- Each supplier is identified by a unique key called supplier ID.
-6- Each customer has a unique customer ID, First and Last Name and a contact information (Phone Number).
-7- Each OrderDetail has a unique order Id, Order date, and order unit price.
-8- Each customer will place at least one order.
-9- An order can only be placed by one customer, an order will have at least one product.
-10- One product can belong in multiple orders.
-11- An order can be placed only at one store, but a store will have multiple orders.
-12- Each Customer who will place an order will only have one Phone number to be entered.
-13- The supplier, store and the ingredients supplied by that supplier are linked by the ternary relationship called Supply which stores the information about unit price of the ingredients supplied,quantity supplied, and supplier order date.
-14- The Orderdetail and Customer are linked through the relationship Order.
-15- The Orderdetail and Product are linked through a relationship called Place, which also stores the quantity of the products ordered.
-16- The details about Product and Product Ingredients are linked by the relationship Prepare which also stores the information about the quantity of ingredient required for preparing each product.
-17- The OrderDetail and Store are linked through a relationship Belong.
+1. Each product is described by a unique product ID, name, price, and category.
+2. Each store has a unique store ID, name, store revenue, location and operation cost.
+3. Each supplier has a unique supplier ID, supplier Name.
+4. Each supplier supplies at least one product but there can be multiple products supplied by the same supplier.
+5. Each supplier is identified by a unique key called supplier ID.
+6. Each customer has a unique customer ID, First and Last Name and a contact information (Phone Number).
+7. Each OrderDetail has a unique order Id, Order date, and order unit price.
+8. Each customer will place at least one order.
+9. An order can only be placed by one customer, an order will have at least one product.
+10. One product can belong in multiple orders.
+11. An order can be placed only at one store, but a store will have multiple orders.
+12. Each Customer who will place an order will only have one Phone number to be entered.
+13. The supplier, store and the ingredients supplied by that supplier are linked by the ternary relationship called Supply which stores the information about unit price of the ingredients supplied,quantity supplied, and supplier order date.
+14. The Orderdetail and Customer are linked through the relationship Order.
+15. The Orderdetail and Product are linked through a relationship called Place, which also stores the quantity of the products ordered.
+16. The details about Product and Product Ingredients are linked by the relationship Prepare which also stores the information about the quantity of ingredient required for preparing each product.
+17. The OrderDetail and Store are linked through a relationship Belong.
 
 
 ## Mission statements
