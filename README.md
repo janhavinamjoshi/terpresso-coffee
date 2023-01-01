@@ -1,6 +1,5 @@
-# terpresso-coffee
 
-# This is a coffee shop database management database system. Includes ERD & relational databases to optimize inventory management & targeted ad to increase revenue
+### This is a coffee shop database management database system. Includes ERD & relational databases to optimize inventory management & targeted ad to increase revenue
 
 We are a chain of coffeehouses and roastery services and are trying to digitize our data management processes, especially how our product inventory, customer database, transactions and supplier database is stored and use it to our business advantage. We are interested in knowing how our products perform and improve our relationship with our ingredient supplier as well. We want our database to reflect our core business process and help us maintain the relationship between customers, suppliers and the products that we offer.
 General Information:
